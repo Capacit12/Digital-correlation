@@ -1,2 +1,13 @@
 # Digital-correlation
 Applications digital image correlation
+Abstract - Image processing is extensively used to examine surface deformations. 
+Digital Image Correlation (DIC) detects two-dimensional subpixel displacements in two images in order to analyze deformations in geomechanically structures. In this study, the analysis is done on an aluminium-magnesium alloy.
+An optical microscope is used to capture the image, which is then processed and utilized to anticipate material deformation. To acquire findings of strain points on the material, the Ncorr application in the MATLAB environment is employed. . Strain graphs on the Exx, Exy, and Eyy axes, as well as U-displacement and V-displacement graphs, are generated to detect the deformation.
+**Digital Image Correlation** (DIC) is a non-contact, 3-D full-field optical approach for measuring contour, deformation, vibration, and strain on any material. For static and dynamic applications, the approach can be employed with a variety of tests, including tensile, torsion, bending, and combination loads. The approach can be used on small (micro) to large (macro) testing regions, and the findings can be compared to FEA or strain gauge results. Surface deformations have been studied extensively using photogrammetry and image processing. In order to assess deformations in geo-mechanical structures, Digital Image Correlation (DIC) detects two- dimensional sub-pixel displacements between two images. DIC is used to rebuild the corresponding strain and displacement fields, which are then compared to the Finite Element Method. 
+The essential hysteresis effect of the material that happens during the loading and unloading operation is studied using DIC. 
+The findings suggest that DIC is a reliable technique for analyzing materials' elastic behavior.
+The primary idea behind DIC is to compare two photographs of a component before and after it has been deformed. Correlating the position of pixel subsets or blocks in the original and distorted image, usually based on contrast, determines displacements and stresses (i.e., grey intensity levels).
+
+**INTRODUCTION**
+  When a material is subjected to an external load, it will change in size and shape. As a result, the material will be strained. The amendment in dimensions or the form is remarked as “deformation”. Deformation of metals may be:
+Excessive Elastic Deformation (EED) This is only a momentary deformity. It's when the elastic zone deforms. The material will alter when it is subjected to external load. The deformation increases in proportion to the size of the load until it reaches a maximum value at the yield point. Excessive deformation occurs as the load increases.
